@@ -295,7 +295,7 @@ public class ImageCycleView extends LinearLayout {
                         mImageCycleViewListener.onImageClick(position-2, v);
                     }
                 });
-                container.removeView(imageView);
+                
                 container.addView(imageView);
                 mImageCycleViewListener.displayImage(imageUrl, imageView);
                 return imageView;
